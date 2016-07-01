@@ -25,7 +25,7 @@ import com.foxinmy.weixin4j.tuple.Voice;
  * 客服消息测试
  * 
  * @className NotifyMsgTest
- * @author jy.hu
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2014年4月10日
  * @since JDK 1.6
  * @see
@@ -37,8 +37,8 @@ public class NotifyTest extends TokenTest {
 
 	@Before
 	public void init() {
-		notifyApi = new NotifyApi(tokenHolder);
-		mediaApi = new MediaApi(tokenHolder);
+		notifyApi = new NotifyApi(tokenManager);
+		mediaApi = new MediaApi(tokenManager);
 	}
 
 	@Test

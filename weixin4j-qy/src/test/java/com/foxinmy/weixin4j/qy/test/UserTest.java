@@ -18,7 +18,7 @@ import com.foxinmy.weixin4j.qy.type.UserStatus;
  * 用户API测试
  * 
  * @className UserTest
- * @author jy
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2014年11月18日
  * @since JDK 1.6
  * @see
@@ -29,8 +29,8 @@ public class UserTest extends TokenTest {
 
 	@Before
 	public void init() {
-		this.userApi = new UserApi(tokenHolder);
-		this.mediaApi = new MediaApi(tokenHolder);
+		this.userApi = new UserApi(tokenManager);
+		this.mediaApi = new MediaApi(tokenManager);
 	}
 
 	@Test

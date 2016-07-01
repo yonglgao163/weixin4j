@@ -2,9 +2,9 @@ package com.foxinmy.weixin4j.mp.type;
 
 /**
  * 卡券颜色
- * 
+ *
  * @className CardColor
- * @author jy
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2016年4月4日
  * @since JDK 1.6
  * @see
@@ -27,7 +27,6 @@ public enum CardColor {
 		this.g = g;
 		this.b = b;
 		this.hex = hex;
-		;
 	}
 
 	public int getR() {

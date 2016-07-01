@@ -18,7 +18,7 @@ import com.foxinmy.weixin4j.qy.type.ReportLocationType;
  * 应用API测试
  * 
  * @className AgentTest
- * @author jy
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2015年03月17日
  * @since JDK 1.6
  * @see
@@ -28,7 +28,7 @@ public class AgentTest extends TokenTest {
 
 	@Before
 	public void init() {
-		this.agentApi = new AgentApi(tokenHolder);
+		this.agentApi = new AgentApi(tokenManager);
 	}
 
 	@Test

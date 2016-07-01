@@ -15,7 +15,7 @@ import com.foxinmy.weixin4j.mp.model.Group;
  * 用户分组测试
  * 
  * @className GroupTest
- * @author jy.hu
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2014年4月10日
  * @since JDK 1.6
  */
@@ -24,7 +24,7 @@ public class GroupTest extends TokenTest {
 
 	@Before
 	public void init() {
-		groupApi = new GroupApi(tokenHolder);
+		groupApi = new GroupApi(tokenManager);
 	}
 
 	@Test

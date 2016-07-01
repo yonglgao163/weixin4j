@@ -4,9 +4,9 @@ import java.nio.charset.Charset;
 
 /**
  * 常量类
- * 
+ *
  * @className Consts
- * @author jy
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2014年12月3日
  * @since JDK 1.6
  * @see

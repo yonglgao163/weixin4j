@@ -16,7 +16,7 @@ import com.foxinmy.weixin4j.mp.model.User;
  * 标签单元测试
  * 
  * @className TagTest
- * @author jy
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2016年5月2日
  * @since JDK 1.6
  * @see
@@ -26,7 +26,7 @@ public class TagTest extends TokenTest {
 
 	@Before
 	public void init() {
-		tagApi = new TagApi(tokenHolder);
+		tagApi = new TagApi(tokenManager);
 	}
 
 	@Test

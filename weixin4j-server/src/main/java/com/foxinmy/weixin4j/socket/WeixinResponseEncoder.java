@@ -17,9 +17,9 @@ import com.foxinmy.weixin4j.util.ServerToolkits;
 
 /**
  * 微信回复编码类
- * 
+ *
  * @className WeixinResponseEncoder
- * @author jy
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2014年11月13日
  * @since JDK 1.6
  * @see <a

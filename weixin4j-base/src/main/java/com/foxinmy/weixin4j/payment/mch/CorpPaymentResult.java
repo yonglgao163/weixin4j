@@ -9,9 +9,9 @@ import com.alibaba.fastjson.annotation.JSONField;
 
 /**
  * 企业付款结果
- * 
+ *
  * @className CorpPaymentResult
- * @author jy
+ * @author jinyu(foxinmy@gmail.com)
  * @date 2015年4月1日
  * @since JDK 1.6
  * @see
@@ -44,7 +44,7 @@ public class CorpPaymentResult extends MerchantResult {
 	protected CorpPaymentResult() {
 		// jaxb required
 	}
-	
+
 	public String getTransactionId() {
 		return transactionId;
 	}
@@ -61,6 +61,6 @@ public class CorpPaymentResult extends MerchantResult {
 	public String toString() {
 		return "CorpPaymentResult [transactionId=" + transactionId
 				+ ", outTradeNo=" + outTradeNo + ", paymentTime=" + paymentTime
-				+ "]";
+				+ ", " + super.toString() + "]";
 	}
 }
